@@ -1,6 +1,6 @@
 {
-  "host": "https://writisanapp.herokuapp.com",
-  "port": 443,
+  "host": "writisanapp.herokuapp.com",
+  "port": 80,
   "mongodb": "MONGODB_URI",
   "public": "../public/",
   "auth": {
@@ -11,6 +11,7 @@
     "google": {
       "clientID": "GOOGLE_CLIENT_ID",
       "clientSecret": "GOOGLE_CLIENT_SECRET",
+      "redirectUri": 'https://writisanapp.herokuapp.com/auth/google/callback',
       "permissions": {
         "scope": ["profile", "email"]
       }
