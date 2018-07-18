@@ -1,5 +1,5 @@
 {
-  "host": "app.writisan.com",
+  "host": "writisanapp.herokuapp.com",
   "port": 80,
   "mongodb": "MONGODB_URI",
   "public": "../public/",
