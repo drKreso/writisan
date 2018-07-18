@@ -1,6 +1,6 @@
 {
   "host": "writisanapp.herokuapp.com",
-  "port": 443,
+  "port": 80,
   "mongodb": "MONGODB_URI",
   "public": "../public/",
   "auth": {
